@@ -3,8 +3,22 @@
 <package format="3">
   <name>echo_chamber</name>
   <version>1.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="shreyas.a.tamboli@gmail.com">tambo</maintainer>
+  <description>This is my first ros2 package. It includes 
+  some practice programs which helped me understant how 
+  ros2 works. I learnt the basic setting up of a node and 
+  communication between 2 nodes. draw_circle, is an 
+  example publisher code which uses turtulesim to draw a
+  circle. first_node is my first node which just prints 
+  info. pose_subscriber is an example subscriber node
+  which recieves info from turtlesim. 
+  The main assignment was to create a publisher node 
+  which publishes a random float and a subscriber which 
+  recieves the float and prints it and also prints its 
+  second multiple. talker is the publisher and listener 
+  is the subscriber. It uses the Float 32 format to 
+  transmit data. I enjoyed this first assignment and 
+  am looking forward for the next one</description>
+  <maintainer email="shreyas.a.tamboli@gmail.com">shreyas</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
