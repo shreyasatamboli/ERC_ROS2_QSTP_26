@@ -18,7 +18,7 @@ class Avoid(Node):
 
         self.obstacle_dist = 1.0
         self.spiral_lin = 0.001 
-        self.spiral_ang = 1
+        self.spiral_ang = 1.0
 
         self.state = "SPIRAL"
 
